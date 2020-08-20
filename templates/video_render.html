@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Face expression recognition</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <marquee><h1>Live Video Camera Demonstration !</h1></marquee>
+    <br><hr><br>
+
+    <center><input type="button" class="btn btn-success" value="Go Back" onclick="history.back()"/> </center>
+    <br>
+    <img id="bg" width=1500px height=600px src="{{ url_for('video_feed') }}">
+    
+  </body>
+</html>
