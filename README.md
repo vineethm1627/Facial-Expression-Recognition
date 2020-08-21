@@ -1,4 +1,4 @@
-# fer
+# Facial Emoton Recognition, Classifier Model
 Facial Expression Recognition Classifier Model
 
 Create a virtual environment in Anaconda
